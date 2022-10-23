@@ -47,7 +47,7 @@ namespace hilo.Game
         /// </summary>
         public void GetInputs()
         {
-            Console.Write("Higher or Lower? [h/l]: \n");
+            Console.Write("Higher or Lower? [h/l]: ");
             _guessCard = Console.ReadLine();
             _isPlaying = true;
         }
