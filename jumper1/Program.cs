@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace jumper1.game
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Director director = new Director();
+            director.StartGame();
+        }
+    }
+}
